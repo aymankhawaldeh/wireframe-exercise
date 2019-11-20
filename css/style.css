@@ -3,7 +3,6 @@ nav {
     top: 0;
     height: 100px;
     background-color: gray;
-    text-align: center;
    
   }
   nav img {
@@ -17,14 +16,25 @@ nav {
   }
   nav ul li{
     display: inline-block;
-    padding:10px;
+    padding: 0px;
     margin-top: 40px;
     margin-right: 90px;
     
   }
- div img {
+ body div img {
   margin-left: 196px;
-  margin-top: 50px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 
 
+ }
+
+ main span{
+  display: block;
+text-align: center;
+ }
+
+ main span img{
+   margin-top: 45px;
+   margin: 0 13px;
  }
